@@ -81,17 +81,19 @@
 \*-----------------------------------*/
 @font-face {
   font-family: FontPrimary;
-  src: url('../fonts/');
+  src: url('../public/fonts/PlayfairDisplay-VariableFont_wght.ttf');
 }
 
 @font-face {
   font-family: FontSecondary;
-  src: url('../fonts/');
+  src: url('../public/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf');
+
 }
 
 body {
   background-color: var(--c-background);
   color: var(--c-text);
+  font-family: var(--ff-1);
 }
 
 
