@@ -1,0 +1,39 @@
+.kuum__hero {
+    width: 100%;
+    text-align: center;
+    background-image: url(../../public/images/kuum/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.kuum__hero--data {
+    width: 80%;
+    margin: auto;
+    filter: drop-shadow(2px 1px 2px #000000)
+            drop-shadow(2px 1px 2px #000000)
+            drop-shadow(2px 1px 2px #000000)
+            drop-shadow(2px 1px 2px #000000);
+}
+
+.kuum__hero--data--h2 {
+    font-size: var(--fs-l);
+    font-family: var(--ff-2);
+    margin: 0;
+
+}
+
+.kuum__hero--data--h1 {
+    font-size: var(--fs-llll);
+    font-family: var(--ff-2);
+    margin: 0;
+}
+
+.kuum__hero--data--h3 {
+    font-size: var(--fs-l);
+    margin: 0;
+}
