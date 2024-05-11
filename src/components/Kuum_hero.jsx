@@ -9,7 +9,7 @@ export const Kuum_hero = () => {
                     <div className="kuum__hero--data--text">
                         <h2 className='kuum__hero--data--text--h2'>Tu cafetería favorita</h2>
                         <h1 className='kuum__hero--data--text--h1'>Kuum Café</h1>
-                        <h3 className='kuum__hero--data--text--h3'>Compartir un café es una de las más puras formas de amar</h3>
+                        <h3 className='kuum__hero--data--text--h3'>Compartir un café es de las más puras maneras de amar</h3>
                     </div>
                     <a className='kuum__hero--data--a' href='#menu'>Ver menu</a>
                 </div>
