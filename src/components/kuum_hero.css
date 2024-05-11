@@ -1,0 +1,55 @@
+.kuum__hero {
+    width: 100%;
+    text-align: center;
+    background-image: url(../../public/images/kuum/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.kuum__hero--data {
+    width: 100%;
+    margin: auto;
+}
+
+.kuum__hero--data--text {
+    width: 80%;
+    margin: 4rem auto;
+    filter: drop-shadow(2px 1px 2px #000000)
+            drop-shadow(2px 1px 2px #000000)
+            drop-shadow(2px 1px 2px #000000)
+            drop-shadow(2px 1px 2px #000000); 
+            
+}
+
+.kuum__hero--data--text--h2 {
+    font-size: var(--fs-l);
+    font-family: var(--ff-2);
+    margin: 0;
+
+}
+
+.kuum__hero--data--text--h1 {
+    font-size: var(--fs-llll);
+    font-family: var(--ff-2);
+    margin: 0;
+}
+
+.kuum__hero--data--text--h3 {
+    font-size: var(--fs-l);
+    margin: 0;
+}
+
+.kuum__hero--data--a {
+    font-size: var(--fs-l);
+    color: #ffffff;
+    background-color: #ff7633;
+    border: 6px solid #753D29;
+    text-shadow: 2px 1px 4px #000000;
+    border-radius: 90px;
+    padding: 4px 16px 8px 16px;
+}
