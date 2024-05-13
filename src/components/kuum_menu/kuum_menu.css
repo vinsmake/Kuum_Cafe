@@ -1,0 +1,27 @@
+*{
+    border: 1px solid red;
+}
+
+.kuum__menu {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./kuum_menu--bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 5vh;
+}
+
+.kuum__menu__data {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    justify-items: center; /* Alineación horizontal */
+    align-items: center; /* Alineación vertical */
+
+}
+
+.kuum__menu__data__item {
+    width: 100%;
+    height: auto;
+}
