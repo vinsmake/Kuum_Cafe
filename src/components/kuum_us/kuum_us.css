@@ -1,0 +1,85 @@
+.kuum__us {
+    max-width: 100%;
+    height: auto;
+    background-image: url(../../../public/images/kuum/bgpattern.png);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.kuum__us__data {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: auto;
+    
+}
+
+.kuum__us__data__text--span {
+    font-size: var(--fs-l);
+    color: var(--c-accent);
+}
+
+.kuum__us__data__text--title {
+    font-size: var(--fs-ll);
+    font-family: var(--ff-2);
+}
+
+.kuum__us__data__text--text {
+    font-size: var(--fs-n);
+
+}
+
+.kuum__us__data__image {
+    width: 35vw;
+    margin: -800;
+    
+}
+
+.kuum__us__data__image--src {
+    width: 100%;
+}
+
+@keyframes roll-in-right {
+    0% {
+        transform: translateX(800px) rotate(540deg);
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+
+@keyframes roll-in-left {
+    0% {
+        transform: translateX(0) rotate(540deg);
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(800px) rotate(0deg);
+    }
+}
+
+@media (max-width: 962px) {
+    
+    .kuum__us__data {
+        grid-template-columns: 1fr;
+    }
+
+    .kuum__us__data__image {
+        width: 75vw;
+        margin: auto;
+    }
+
+    .kuum__us__data {
+        width: 95%;
+    }
+}
