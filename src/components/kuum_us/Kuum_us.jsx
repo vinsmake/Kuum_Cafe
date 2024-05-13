@@ -1,30 +1,11 @@
 import "./kuum_us.css"
 import plate from  "../../../public/images/kuum/plate.png"
-import { useEffect, useRef } from "react"
+import { useScrollAnimation } from "../../hooks/useScrollAnimation";
 
 
 export const Kuum_us = () => {
 
-    const imgRef = useRef(null);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            const img = imgRef.current;
-            const scrollPosition = window.scrollY + window.innerHeight;
-            const imgPosition = img.offsetTop + img.clientHeight / 1.5;
-
-            if (scrollPosition > imgPosition) {
-                img.style.animation = 'roll-in-right 2s ease-out both';
-            } else {
-                img.style.animation = 'roll-in-left 2s ease-out both';
-            }
-        };
-
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+    const imgAnimation = useScrollAnimation('roll-in-right 2s ease-out both', 'roll-in-left 2s ease-out both');
 
     return (
     <>
@@ -38,7 +19,7 @@ export const Kuum_us = () => {
             <div className="kuum__us__data__image">
                 <img src={plate} className="kuum__us__data__image--src" 
                 title="Photo by Nathan Dumlao on Unsplash"
-                ref={imgRef}
+                ref={imgAnimation}
                 />
             </div>
             </div>
