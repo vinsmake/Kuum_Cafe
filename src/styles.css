@@ -96,6 +96,10 @@ body {
   font-family: var(--ff-1);
 }
 
+p {
+  line-height: 150%;
+}
+
 
 @media (min-width: 576px) {
   :root {
