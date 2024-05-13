@@ -10,6 +10,8 @@ export const App = () => {
     <Kuum_hero/>
     <Kuum_brush/>
     <Kuum_us/>
+    <Kuum_brush/>
+
   </>
   )
 }
