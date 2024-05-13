@@ -94,7 +94,10 @@ body {
   background-color: var(--c-background);
   color: var(--c-text);
   font-family: var(--ff-1);
+  overflow-x:hidden  /* this prevents animation to extend the horizontal page */
 }
+
+
 
 p {
   line-height: 150%;

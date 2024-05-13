@@ -1,11 +1,12 @@
 .kuum__us {
-    width: 100%;
+    max-width: 100%;
     height: 60vh;
     background-image: url(../../../public/images/kuum/bgpattern.png);
     background-size: cover;
     background-position: center;
     color: black;
     padding-top: 5vh;
+    
 }
 
 .kuum__us__data {
@@ -14,6 +15,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     margin: auto;
+    
 }
 
 .kuum__us__data__text--span {
@@ -33,7 +35,8 @@
 
 .kuum__us__data__image {
     width: 35vw;
-    margin: auto;
+    margin: -800;
+    
 }
 
 .kuum__us__data__image--src {
@@ -43,6 +46,7 @@
     animation-name: roll-in-right;
     animation-fill-mode: both;
     animation-duration: 1ms; 
+    
 
 
     /* animation:roll-in-right 2s ease-out both; */
