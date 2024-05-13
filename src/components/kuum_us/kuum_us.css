@@ -38,7 +38,14 @@
 
 .kuum__us__data__image--src {
     width: 100%;
-    animation:roll-in-right 2s ease-out both;
+    view-timeline-name: --roll-in;
+    animation-timeline: --roll-in;
+    animation-name: roll-in-right;
+    animation-fill-mode: both;
+    animation-duration: 1ms; 
+
+
+    /* animation:roll-in-right 2s ease-out both; */
 
 }
 
@@ -48,9 +55,13 @@
         opacity: 0
     }
 
+    50% {
+        opacity: 1
+    }
+
     100% {
         transform: translateX(0) rotate(0deg);
-        opacity: 1
+
     }
 }
 
