@@ -68,7 +68,7 @@
     }
 }
 
-@media (max-width: 962px) {
+@media (max-width: 768px) {
     
     .kuum__us__data {
         grid-template-columns: 1fr;
