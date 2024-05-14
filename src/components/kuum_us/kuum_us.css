@@ -1,10 +1,10 @@
 .kuum__us {
     max-width: 100%;
     height: auto;
-    background-image: url(../../../public/images/kuum/bgpattern.png);
+    background-image: url(../../assets/images/kuum/us/bg_pattern.png);
     background-size: cover;
     background-position: center;
-    color: black;
+    color: #000000;
     padding-top: 5vh;
     padding-bottom: 5vh;
 }
@@ -58,7 +58,7 @@
 
 @keyframes roll-in-left {
     0% {
-        transform: translateX(0) rotate(540deg);
+        transform: translateX(0) rotate(-540deg);
         opacity: 1
     }
 
@@ -68,7 +68,7 @@
     }
 }
 
-@media (max-width: 962px) {
+@media (max-width: 768px) {
     
     .kuum__us__data {
         grid-template-columns: 1fr;

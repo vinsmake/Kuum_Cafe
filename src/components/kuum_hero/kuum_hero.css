@@ -1,7 +1,7 @@
 .kuum__hero {
     width: 100%;
     text-align: center;
-    background-image: url(../../../public/images/kuum/hero.jpg);
+    background-image: url(../../../src/assets/images/kuum/hero/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -46,7 +46,7 @@
 
 .kuum__hero--data--a {
     font-size: var(--fs-l);
-    color: #ffffff;
+    color: var(--c-text);
     background-color: var(--c-accent);
     border: 6px solid var(--c-effect);
     text-shadow: 2px 1px 4px #000000;
