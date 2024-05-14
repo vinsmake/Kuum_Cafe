@@ -1,6 +1,5 @@
 import "./kuum_menu.css"
-import { kuummenudata } from "./kuummenudata"
-import imagen from "../../../public/images/kuum/menu/Cappuccino.png"
+import { kuum_menu } from "../../data"
 
 
 export const Kuum_menu = () => {
@@ -13,9 +12,9 @@ export const Kuum_menu = () => {
                 <div className="kuum__menu__data">
 
                     {
-                        kuummenudata.map(item => (
+                        kuum_menu.map(item => (
                             <div className="kuum__menu__data__item" key={item.title}>
-                                <img src={route + item.title + ".png"}
+                                <img src={item.img}
                                 /* <img src={imagen} */className="kuum__menu__data__item--img"/>
                                 <div className="kuum__menu__data__item--data">
                                 <h4 className="kuum__menu__data__item--data--title">{item.title}</h4>

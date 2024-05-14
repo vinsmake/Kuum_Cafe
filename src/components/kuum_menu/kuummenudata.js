@@ -1,10 +1,9 @@
 
-
 export const kuummenudata =
     [
         {
             title: 'Espresso Sencillo',
-            description: 'Shot sencillo de café.'
+            description: 'Shot sencillo de café.',
         },
         {
             title: 'Americano de Olla',
