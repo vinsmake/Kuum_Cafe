@@ -54,6 +54,7 @@
 
 .kuum__menu__data__item--data--p {
     font-size: var(--fs-s);
+    color: var(--c-text);
     filter: drop-shadow(2px 1px 2px #000000)
     drop-shadow(2px 1px 2px #000000)
     drop-shadow(2px 1px 2px #000000)

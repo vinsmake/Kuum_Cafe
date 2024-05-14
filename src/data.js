@@ -14,7 +14,10 @@ export const kuum_us = {
     spinning_plate: spinning_plate
 }
 
-import espresso_sensillo from "../src/assets/images/kuum/menu/Espresso Sencillo.png"
+import espresso_sensillo from "../src/assets/images/kuum/menu/espresso_sencillo.png"
+import americano_olla from "../src/assets/images/kuum/menu/americano_olla.png"
+import flat_white from "../src/assets/images/kuum/menu/flat_white.png"
+import cappuccino from "../src/assets/images/kuum/menu/cappuccino.png"
 export const kuum_menu =
     [
         {
@@ -24,15 +27,18 @@ export const kuum_menu =
         },
         {
             title: 'Americano de Olla',
-            description: 'Americano (con espresso doble) pero con un toquecito a café de olla. .'
+            description: 'Americano (con espresso doble) pero con un toquecito a café de olla.',
+            img: americano_olla
         },
         {
             title: 'Flat White',
-            description: 'Espresso doble y 150 ml de leche texturizada.'
+            description: 'Espresso doble y 150 ml de leche texturizada.',
+            img: flat_white
         },
         {
             title: 'Cappuccino',
-            description: 'Espresso doble, leche teturizada muy espumadita.'
+            description: 'Espresso doble, leche teturizada muy espumadita.',
+            img: cappuccino
         },
         {
             title: 'Moccha',

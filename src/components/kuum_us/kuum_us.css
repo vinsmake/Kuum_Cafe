@@ -4,7 +4,7 @@
     background-image: url(../../../public/images/kuum/bg_pattern.png);
     background-size: cover;
     background-position: center;
-    color: black;
+    color: #000000;
     padding-top: 5vh;
     padding-bottom: 5vh;
 }
