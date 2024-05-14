@@ -1,5 +1,20 @@
-import espresso_sensillo from "../src/assets/images/kuum/menu/Espresso Sencillo.png"
 
+export const kuum_hero = {
+        kicker: 'Tu cafetería favorita',
+        title: 'Kuum Café',
+        subtitle: 'Compartir un café es de las más puras maneras de amar',
+        btn: 'Ver menu'
+}
+
+import spinning_plate from "../src/assets/images/kuum/us/spinning_plate.png"
+export const kuum_us = {
+    kicker: 'Nuestra historia',
+    title: 'Kuum Café',
+    text: 'Sucio es el nombre que se le da a las bebidas con leche cuando se le agrega un espresso, por ejemplo: chai sucio (chai latte con espresso) o matcha sucio (matcha latte con espresso). También es común utilizar el verbo “ensuciar” para pedir una dosis de café en las bebidas en lugar de usar el término “sucio”.',
+    spinning_plate: spinning_plate
+}
+
+import espresso_sensillo from "../src/assets/images/kuum/menu/Espresso Sencillo.png"
 export const kuum_menu =
     [
         {
