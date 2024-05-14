@@ -1,5 +1,5 @@
 *{
-    border: 1px solid red;
+
 }
 
 .kuum__menu {
@@ -12,7 +12,7 @@
 }
 
 .kuum__menu__data {
-    width: 60%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: auto;
@@ -24,4 +24,39 @@
 .kuum__menu__data__item {
     width: 100%;
     height: 12vw;
+    position: relative;
+    text-align: center;
+}
+
+.kuum__menu__data__item--img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.kuum__menu__data__item--data {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.kuum__menu__data__item--data--title {
+    font-size: 2rem;
+    color: var(--c-accent);
+    filter: drop-shadow(2px 1px 2px #000000)
+            drop-shadow(2px 1px 2px #000000)
+            drop-shadow(2px 1px 2px #000000)
+            drop-shadow(2px 1px 2px #000000); 
+}
+
+.kuum__menu__data__item--data--p {
+    font-size: var(--fs-s);
+    filter: drop-shadow(2px 1px 2px #000000)
+    drop-shadow(2px 1px 2px #000000)
+    drop-shadow(2px 1px 2px #000000)
+    drop-shadow(2px 1px 2px #000000); 
+    
 }

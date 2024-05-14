@@ -58,7 +58,7 @@
 
 @keyframes roll-in-left {
     0% {
-        transform: translateX(0) rotate(540deg);
+        transform: translateX(0) rotate(-540deg);
         opacity: 1
     }
 
