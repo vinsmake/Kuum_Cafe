@@ -2,6 +2,29 @@
 
 :root {
     /*-----------------------------------*\
+                CUSTOM VARIABLE
+        Here you can put all your custom
+        variables and adit them when you
+        need it.
+    \*-----------------------------------*/
+
+    --text-shadow-big:     
+    0px 0px 0.6rem #000000,
+    0px 0px 0.6rem #000000,
+    0px 0px 0.6rem #000000,
+    0px 0px 0.6rem #000000,
+    0px 0px 0.6rem #000000,
+    0px 0px 0.6rem #000000;
+
+    --text-shadow-menu:     
+    0px 0px 0.3rem #000000,
+    0px 0px 0.3rem #000000,
+    0px 0px 0.3rem #000000,
+    0px 0px 0.3rem #000000,
+    0px 0px 0.3rem #000000,
+    0px 0px 0.3rem #000000;
+  
+    /*-----------------------------------*\
                 FONTS VARIABLE
         Here we declate the variable of
         the fonts, just below root you
