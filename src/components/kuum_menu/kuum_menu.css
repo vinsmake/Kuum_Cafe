@@ -49,7 +49,7 @@
 }
 
 .kuum__menu__data__item--data--p {
-    font-size: var(--fs-s);
+    font-size: 1rem;
     color: var(--c-text);
     text-shadow: var(--text-shadow-menu);
     
@@ -126,10 +126,6 @@
         font-size: 1.2rem;
     }
     
-    .kuum__menu__data__item--data--p {
-        font-size: 0.8rem;
-        
-    }
     .kuum__menu__data__item--img {
         width: 150px;
         height: 150px;

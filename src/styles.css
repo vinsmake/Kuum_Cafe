@@ -9,7 +9,7 @@
         your mediaqueries if necesary
     \*-----------------------------------*/
 
-    --text-shadow-big:     
+    --text-shadow-hero:     
     0px 0px 10px #000000,
     0px 0px 10px #000000,
     0px 0px 10px #000000,
@@ -39,15 +39,6 @@
   --fw-b: 'bolder';
 
 
-  --fs-ssss: 0.5rem;
-  --fs-sss: 0.675rem;
-  --fs-ss: 0.75rem;
-  --fs-s: 0.875rem;
-  --fs-n: 1rem;
-  --fs-l: 1.5rem;
-  --fs-ll: 2rem;
-  --fs-lll: 2.5rem;
-  --fs-llll: 3rem;
 
   /*-----------------------------------*\
   #COLORS#
@@ -114,11 +105,15 @@
 
 }
 
+html {
+  font-size: 125%;
+}
+
 body {
   background-color: var(--c-background);
   color: var(--c-text);
   font-family: var(--ff-1);
-  overflow-x:hidden  /* this prevents animation to extend the horizontal page */
+  overflow-x:hidden;  /* this prevents animation to extend the horizontal page */
 }
 
 
@@ -127,54 +122,9 @@ p {
   line-height: 150%;
 }
 
+@media (max-width: 1024px) {
 
-@media (min-width: 576px) {
-  :root {
-    --fs-l: 1.75rem;
-    --fs-ll: 2rem;
-    --fs-lll: 3.75rem;
-    --fs-llll: 4.5rem;
-  }
-}
-
-@media (min-width: 768px) {
-  :root {
-    --fs-ss: 0.875rem;
-    --fs-s: 1rem;
-    --fs-n: 1.125rem;
-    --fs-l: 2rem;
-    --fs-ll: 3rem;
-    --fs-lll: 5rem;
-    --fs-llll: 6rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  :root {
-    --fs-l: 2.25rem;
-    --fs-ll: 4rem;
-    --fs-lll: 6.25rem;
-    --fs-llll: 7.5rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  :root {
-    --fs-ss: 1rem;
-    --fs-s: 1.125rem;
-    --fs-n: 1.25rem;
-    --fs-l: 2.5rem;
-    --fs-ll: 5rem;
-    --fs-lll: 7.5rem;
-    --fs-llll: 9rem;
-  }
-}
-
-@media (min-width: 1536px) {
-  :root {
-    --fs-l: 2.75rem;
-    --fs-ll: 6rem;
-    --fs-lll: 8.75rem;
-    --fs-llll: 10.5rem;
+    html {
+      font-size: 112.5%;
   }
 }

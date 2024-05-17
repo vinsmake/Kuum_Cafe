@@ -25,31 +25,31 @@
             drop-shadow(2px 1px 2px #000000)
             drop-shadow(2px 1px 2px #000000)
             drop-shadow(2px 1px 2px #000000);  */
-    text-shadow: var(--text-shadow-big);
+    text-shadow: var(--text-shadow-hero);
     
             
 }
 
 .kuum__hero--data--text--h2 {
-    font-size: var(--fs-l);
+    font-size: 2rem;
     font-family: var(--ff-2);
     margin: 0;
 
 }
 
 .kuum__hero--data--text--h1 {
-    font-size: var(--fs-llll);
+    font-size: 8rem;
     font-family: var(--ff-2);
     margin: 0;
 }
 
 .kuum__hero--data--text--h3 {
-    font-size: var(--fs-l);
+    font-size: 2rem;
     margin: 0;
 }
 
 .kuum__hero--data--a {
-    font-size: var(--fs-l);
+    font-size: 2rem;
     color: var(--c-text);
     background-color: var(--c-accent);
     border: 6px solid var(--c-effect);

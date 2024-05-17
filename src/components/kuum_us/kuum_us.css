@@ -19,17 +19,17 @@
 }
 
 .kuum__us__data__text--span {
-    font-size: var(--fs-l);
+    font-size: 2rem;
     color: var(--c-accent);
 }
 
 .kuum__us__data__text--title {
-    font-size: var(--fs-ll);
+    font-size: 4rem;
     font-family: var(--ff-2);
 }
 
 .kuum__us__data__text--text {
-    font-size: var(--fs-n);
+
 
 }
 
