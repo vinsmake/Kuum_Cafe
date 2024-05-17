@@ -34,15 +34,15 @@
 
 .kuum__us__data__image {
     width: 30vw;
-    margin: -800;
-    
+    margin: auto;
 }
 
 .kuum__us__data__image--src {
     width: 100%;
+    visibility: hidden; /* necesario para que no se vea antes de iniciar la animacion */
 }
 
-@keyframes roll-in-right {
+@keyframes roll-to-left {
     0% {
         transform: translateX(800px) rotate(540deg);
         opacity: 0
@@ -55,10 +55,10 @@
 }
 
 
-@keyframes roll-in-left {
+@keyframes roll-to-right {
     0% {
         transform: translateX(0) rotate(-540deg);
-        opacity: 1
+        opacity: 1;
     }
 
     100% {

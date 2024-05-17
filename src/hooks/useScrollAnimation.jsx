@@ -9,10 +9,11 @@ export const useScrollAnimation = (animationUp, animationDown) => {
             if (!toAnimate) return;
 
             const scrollPosition = window.scrollY + window.innerHeight;
-            const toAnimatePosition = toAnimate.offsetTop + toAnimate.clientHeight / 1.5;
+            const toAnimatePosition = toAnimate.offsetTop + toAnimate.clientHeight / 2;
 
             if (scrollPosition > toAnimatePosition) {
                 toAnimate.style.animation = animationUp;
+                toAnimate.style.visibility = 'visible';
             } else {
                 toAnimate.style.animation = animationDown;
             }

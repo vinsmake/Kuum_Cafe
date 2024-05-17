@@ -7,7 +7,7 @@ export const Kuum_us = () => {
 
     const {spinning_plate, kicker, title, text} = kuum_us
 
-    const imgAnimation = useScrollAnimation('roll-in-right 2s ease-out both', 'roll-in-left 2s ease-out both');
+    const imgAnimation = useScrollAnimation('roll-to-left 2s ease-out both', 'roll-to-right 2s ease-out both');
 
     return (
     <>

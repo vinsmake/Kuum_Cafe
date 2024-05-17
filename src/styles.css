@@ -190,3 +190,18 @@ p {
     --fs-9: 6.4rem;
   }
 }
+
+@media (max-width: 768px) {
+  :root {
+    --text-shadow-hero:
+    0px 0px 10px #000000,
+    0px 0px 10px #000000,
+    0px 0px 10px #000000;
+
+
+  --text-shadow-menu:
+    0px 0px 6px #000000,
+    0px 0px 6px #000000,
+    0px 0px 6px #000000;
+  }
+}
