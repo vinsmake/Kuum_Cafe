@@ -19,22 +19,21 @@
 }
 
 .kuum__us__data__text--span {
-    font-size: 2rem;
+    font-size: var(--fs-2);
     color: var(--c-accent);
 }
 
 .kuum__us__data__text--title {
-    font-size: 4rem;
+    font-size: var(--fs-4);
     font-family: var(--ff-2);
 }
 
 .kuum__us__data__text--text {
-
-
+    font-size: var(--fs-text);
 }
 
 .kuum__us__data__image {
-    width: 35vw;
+    width: 30vw;
     margin: -800;
     
 }
@@ -68,8 +67,8 @@
     }
 }
 
-@media (max-width: 768px) {
-    
+
+@media (max-width: 1024px) {
     .kuum__us__data {
         grid-template-columns: 1fr;
     }
@@ -82,4 +81,5 @@
     .kuum__us__data {
         width: 95%;
     }
+    
 }

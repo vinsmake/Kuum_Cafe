@@ -26,25 +26,23 @@
             drop-shadow(2px 1px 2px #000000)
             drop-shadow(2px 1px 2px #000000);  */
     text-shadow: var(--text-shadow-hero);
-    
-            
 }
 
 .kuum__hero--data--text--h2 {
-    font-size: 2rem;
+    font-size: var(--fs-2);
     font-family: var(--ff-2);
     margin: 0;
 
 }
 
 .kuum__hero--data--text--h1 {
-    font-size: 8rem;
+    font-size: var(--fs-8);
     font-family: var(--ff-2);
     margin: 0;
 }
 
 .kuum__hero--data--text--h3 {
-    font-size: 2rem;
+    font-size: var(--fs-1);
     margin: 0;
 }
 
@@ -56,4 +54,11 @@
     text-shadow: 2px 1px 4px #000000;
     border-radius: 90px;
     padding: 4px 16px 8px 16px;
+}
+
+@media (max-width: 768px) {
+    .kuum__hero--data--text {
+        width: 95%;
+    }
+    
 }
