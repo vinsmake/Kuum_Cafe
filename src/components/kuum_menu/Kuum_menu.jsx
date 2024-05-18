@@ -12,7 +12,7 @@ export const Kuum_menu = () => {
         <>
             <div className="kuum__menu">
                 <div className="kuum__menu__text">
-                    <h1 className="kuum__menu__text--title">Hay que pedir un café</h1>
+                    <p className="kuum__menu__text--title">Hay que pedir un café</p>
                     <p className="kuum__menu__text--text">Mucho café y brebajes relacionados</p>
                 </div>
                 <div className="kuum__menu__data">
