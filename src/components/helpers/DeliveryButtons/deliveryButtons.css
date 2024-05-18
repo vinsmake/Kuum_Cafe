@@ -12,9 +12,13 @@
     justify-content: center; /* Alinea horizontalmente */
     align-items: center;   
     padding: 7rem 2rem; 
-    font-size: var(--fs-1);
+    font-size: 20px;
     font-family: deloveryButtons;
     box-shadow: 2px 2px 4px 4px #000000;
+}
+
+.button--logo {
+    width: 100%;
 }
 
   /* RAPPI BUTTON */
@@ -23,19 +27,13 @@
     color: #000000;
 }
 
-.button--uber--logo {
-    width: 100%;
-}
+
 
 /* UBER EATS BUTTON */
 
 .button--rappi {
     background-color: #FF441F;
     color: #ffffff;
-}
-
-.button--rappi--logo {
-    width: 100%;
 }
 
 @media (max-width: 1024px) {
@@ -50,7 +48,22 @@
     .delivery__button {
         width: 200px;
         height: 100px;
-        padding: 3rem 1rem; 
+        padding: 4rem 1rem;
+        border-radius: 16px;
+        font-size: 14px;
     }
+
+    
 }
 
+@media (max-width: 576px) {
+    .delivery__button {
+        width: 165px;
+        height: 80px;
+    }
+
+    .button--logo {
+        width: 90%;
+    }
+    
+}

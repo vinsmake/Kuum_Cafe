@@ -6,7 +6,7 @@ export const ButtonUber = () => {
         <>
             <div className="delivery__button button--uber">
                     <p>HACER PEDIDO EN</p>
-                    <img src={logo} className="button--uber--logo"/>
+                    <img src={logo} className="button--logo"/>
             </div>
         </>
     )

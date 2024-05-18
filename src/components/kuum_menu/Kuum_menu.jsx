@@ -28,8 +28,12 @@ export const Kuum_menu = () => {
 
                 </div>
                 <div className="kuum__menu__buttons">
+                    <a href="https://www.ubereats.com/store/kuum-cafe-ciudad-guzman/agUSKzQvUxa9A90JoJSJNw?diningMode=DELIVERY" target="_blank" rel="noopener noreferrer">
                     <ButtonUber/>
+                    </a>
+                    <a href="https://www.rappi.com.mx/restaurantes/1930170903-kuum-cafe" target="_blank" rel="noopener noreferrer">
                     <ButtonRappi/>
+                    </a>
                 </div>
             </div>
         </>

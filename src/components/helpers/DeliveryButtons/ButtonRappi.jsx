@@ -6,7 +6,7 @@ export const ButtonRappi = () => {
         <>
             <div className="delivery__button button--rappi">
                     <p>HACER PEDIDO EN</p>
-                    <img src={logo} className="button--rappi--logo"/>
+                    <img src={logo} className="button--logo"/>
             </div>
         </>
     )
