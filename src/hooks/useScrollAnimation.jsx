@@ -8,6 +8,9 @@ export const useScrollAnimation = (animationUp, animationDown) => {
             const toAnimate = reference.current;
             if (!toAnimate) return;
 
+            
+            
+
             const scrollPosition = window.scrollY + window.innerHeight;
             const toAnimatePosition = toAnimate.offsetTop + toAnimate.clientHeight / 2;
 

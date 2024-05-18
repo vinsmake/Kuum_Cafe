@@ -1,5 +1,7 @@
 import "./kuum_menu.css"
 import { kuum_menu } from "../../data"
+import { ButtonUber } from "../helpers/DeliveryButtons/ButtonUber"
+import { ButtonRappi } from "../helpers/DeliveryButtons/ButtonRappi"
 
 
 export const Kuum_menu = () => {
@@ -24,6 +26,10 @@ export const Kuum_menu = () => {
                         ))
                     }
 
+                </div>
+                <div className="kuum__menu__buttons">
+                    <ButtonUber/>
+                    <ButtonRappi/>
                 </div>
             </div>
         </>
