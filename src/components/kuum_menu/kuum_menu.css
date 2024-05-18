@@ -26,9 +26,10 @@
 
 .kuum__menu__text--title {
     color: var(--c-accent);
-    font-size: var(--fs-3);
+    font-size: var(--fs-4);
     margin-bottom: 6px;
     font-family: var(--ff-2);
+    font-weight: var(--fw-n);
 }
 
 .kuum__menu__text--text {
