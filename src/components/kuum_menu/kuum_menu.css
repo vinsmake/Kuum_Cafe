@@ -28,6 +28,7 @@
     color: var(--c-accent);
     font-size: var(--fs-3);
     margin-bottom: 6px;
+    font-family: var(--ff-2);
 }
 
 .kuum__menu__text--text {
@@ -150,6 +151,7 @@
     .kuum__menu {
         width: 100%;
         background-size: cover;
+        background-image: url(./kuum_menu--bg--m.png);;
     }
 
     .kuum__menu__text {
