@@ -14,8 +14,8 @@ export const Kuum_us = () => {
             <div className="kuum__us">
                 <div className="kuum__us__data">
                     <div className="kuum__us__data__text">
-                        <p className="kuum__us__data__text--span">{kicker}</p>
-                        <p className="kuum__us__data__text--title">{title}</p>
+                        <h4 className="kuum__us__data__text--span">{kicker}</h4>
+                        <h2 className="kuum__us__data__text--title">{title}</h2>
                         <p className="kuum__us__data__text--text">{text}</p>
                     </div>
                     <div className="kuum__us__data__image">

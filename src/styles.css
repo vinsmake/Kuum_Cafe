@@ -32,9 +32,9 @@
 
   --ff-1: 'FontPrimary';
   --ff-2: 'FontSecondary';
-  --fw-l: 'lighter';
-  --fw-n: 'normal';
-  --fw-b: 'bolder';
+  --fw-l: lighter;
+  --fw-n: normal;
+  --fw-b: bolder;
 
   --fs-text: 2rem;
 
