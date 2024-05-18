@@ -194,15 +194,19 @@ p {
 @media (max-width: 768px) {
   :root {
     --text-shadow-hero:
-    0px 0px 3px #000000,
-    0px 0px 3px #000000,
-    0px 0px 3px #000000;
+    0px 0px 2px #000000,
+    0px 0px 2px #000000,
+    0px 0px 2px #000000,
+    0px 0px 2px #000000,
+    0px 0px 2px #000000;
 
 
   --text-shadow-menu:
-    0px 0px 3px #000000,
-    0px 0px 3px #000000,
-    0px 0px 3px #000000,
-    0px 0px 3px #000000;
+    0px 0px 2px #000000,
+    0px 0px 2px #000000,
+    0px 0px 2px #000000,
+    0px 0px 2px #000000,
+    0px 0px 2px #000000,
+    0px 0px 2px #000000;
   }
 }
