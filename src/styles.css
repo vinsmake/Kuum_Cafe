@@ -202,12 +202,13 @@ p {
 
 
   --text-shadow-menu:
-    0px 0px 3px #000000,
-    0px 0px 3px #000000,
-    0px 0px 3px #000000,
-    0px 0px 3px #000000,
-    0px 0px 3px #000000,
-    0px 0px 3px #000000,
-    0px 0px 3px #000000;
+    1px 1px 1px #000000,
+    -1px -1px 1px #000000,
+    1px -1px 1px #000000,
+    -1px 1px 1px #000000,
+    1px 1px 1px #000000,
+    -1px -1px 1px #000000,
+    1px -1px 1px #000000,
+    -1px 1px 1px #000000;
   }
 }
