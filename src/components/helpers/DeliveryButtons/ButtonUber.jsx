@@ -5,7 +5,7 @@ export const ButtonUber = () => {
     return (
         <>
             <div className="delivery__button button--uber">
-                    <p>HACER PEDIDO EN</p>
+                    <p className="button--text">HACER PEDIDO EN</p>
                     <img src={logo} className="button--logo"/>
             </div>
         </>
