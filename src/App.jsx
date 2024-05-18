@@ -13,6 +13,7 @@ export const App = () => {
     <Kuum_us/>
     <Kuum_brush/>
     <Kuum_menu/>
+    <Kuum_brush/>
 
   </>
   )
