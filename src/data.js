@@ -1,9 +1,9 @@
 
 export const kuum_hero = {
-        kicker: 'Tu cafetería favorita',
-        title: 'Kuum Café',
-        subtitle: 'Compartir un café es de las más puras maneras de amar',
-        btn: 'Ver menu'
+    kicker: 'Tu cafetería favorita',
+    title: 'Kuum Café',
+    subtitle: 'Compartir un café es de las más puras maneras de amar',
+    btn: 'Ver menu'
 }
 
 import spinning_plate from "../src/assets/images/kuum/us/spinning_plate.png"
@@ -26,8 +26,12 @@ import iced_matcha_latte from "../src/assets/images/kuum/menu/iced_matcha_latte.
 import spring_matcha from "../src/assets/images/kuum/menu/spring_matcha.png"
 import koldbrew from "../src/assets/images/kuum/menu/koldbrew.png"
 import carajillo_kuum from "../src/assets/images/kuum/menu/carajillo_kuum.png"
-export const kuum_menu =
-    [
+export const kuum_menu = {
+    title: '¿Y si pedimos un café?',
+    legend: 'Mucho café y brebajes relacionados',
+    link_uber: 'https://www.ubereats.com/store/kuum-cafe-ciudad-guzman/agUSKzQvUxa9A90JoJSJNw?diningMode=DELIVERY',
+    link_rappi: 'https://www.rappi.com.mx/restaurantes/1930170903-kuum-cafe',
+    menu: [
         {
             title: 'Espresso Sencillo',
             description: 'Shot sencillo de café.',
@@ -89,3 +93,4 @@ export const kuum_menu =
             img: carajillo_kuum
         }
     ]
+}
