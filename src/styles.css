@@ -16,12 +16,12 @@
     0px 0px 10px #000000;
 
   --text-shadow-menu:
-    0px 0px 6px #000000,
-    0px 0px 6px #000000,
-    0px 0px 6px #000000,
-    0px 0px 6px #000000,
-    0px 0px 6px #000000,
-    0px 0px 6px #000000;
+    -1px 1px 6px #000000,
+    -1px 1px 6px #000000,
+    -1px 1px 6px #000000,
+    -1px 1px 6px #000000,
+    -1px 1px 6px #000000,
+    -1px 1px 6px #000000;
 
   /*-----------------------------------*\
                 FONTS VARIABLE
@@ -87,7 +87,7 @@
 
   --c-action: #;
   --c-accent: #ff7633;
-  --c-detail: #;
+  --c-detail: #ffffff;
   --c-effect: #753D29;
 
 }
@@ -200,6 +200,7 @@ p {
 
 
   --text-shadow-menu:
+    0px 0px 3px #000000,
     0px 0px 3px #000000,
     0px 0px 3px #000000,
     0px 0px 3px #000000;
