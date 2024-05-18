@@ -3,7 +3,7 @@
     height: 140vh;
     background-image: url(./kuum_menu--bg.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: right;
     padding: 5vh 0;
 
 }
@@ -110,7 +110,6 @@
         width: 100%;
         height: 200vh;
         background-size: cover;
-        background-position: right;
     }
 }
 
