@@ -23,9 +23,9 @@
 }
 
 .kuum__us__data__text--title {
-    font-size: var(--fs-4);
+    font-size: var(--fs-5);
     font-family: var(--ff-2);
-    font-weight: var(--fw-b);
+    font-weight: var(--fw-n);
 }
 
 .kuum__us__data__text--text {
