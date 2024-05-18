@@ -32,9 +32,10 @@
 }
 
 .kuum__hero--data--text--h1 {
-    font-size: var(--fs-8);
+    font-size: var(--fs-9);
     font-family: var(--ff-2);
     margin: 0;
+    font-weight: var(--fw-b);
 }
 
 .kuum__hero--data--text--h3 {
