@@ -15,7 +15,7 @@ export const Kuum_hero = () => {
                         <h1 className='kuum__hero--data--text--h1'>{title}</h1>
                         <h3 className='kuum__hero--data--text--h3'>{subtitle}</h3>
                     </div>
-                    <a className='kuum__hero--data--a' href='#menu'>{btn}</a>
+                    {/* <a className='kuum__hero--data--a' href='#menu'>{btn}</a> */}
                 </div>
             </div>
         </>
