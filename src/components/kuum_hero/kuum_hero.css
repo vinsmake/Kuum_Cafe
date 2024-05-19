@@ -10,7 +10,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .kuum__hero--data {
@@ -56,6 +55,10 @@
 @media (max-width: 768px) {
     .kuum__hero--data--text {
         width: 95%;
+    }
+
+    .kuum__hero {
+        height: 60vh;
     }
     
 }
