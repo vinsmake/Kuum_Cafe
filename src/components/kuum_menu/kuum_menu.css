@@ -160,7 +160,8 @@
     .kuum__menu {
         width: 100%;
         background-size: cover;
-        background-image: url(./kuum_menu--bg--m.png);;
+        background: linear-gradient( rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.3)100%),
+                    url(./kuum_menu--bg--m.png);;
     }
 
     .kuum__menu__text {
