@@ -1,7 +1,8 @@
 .kuum__menu {
     width: 100%;
     height: auto;
-    background-image: url(./kuum_menu--bg.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.3)100%),
+                url(./kuum_menu--bg.png);
     background-size: cover;
     background-position: right;
     padding: 10vh 0;
@@ -66,6 +67,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
+    
+
 /*     background-image: url(./table.png);
     background-position: center;
     background-size: cover;
@@ -83,7 +86,7 @@
     font-size: var(--fs-text);
     color: var(--c-text);
     text-shadow: var(--text-shadow-menu);
-    
+    filter: brightness(120%);
     
 }
 
