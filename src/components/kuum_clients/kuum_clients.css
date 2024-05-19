@@ -1,0 +1,10 @@
+.kuum__clients {
+    max-width: 100%;
+    height: auto;
+    background-image: url(../../assets/images/kuum/us/bg_pattern.png);
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
