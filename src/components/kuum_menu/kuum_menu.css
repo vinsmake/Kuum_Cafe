@@ -66,6 +66,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
+/*     background-image: url(./table.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    height: 12rem; */
 }
 
 .kuum__menu__data__item--data--title {
@@ -166,6 +171,7 @@
         -2px 2px 3px #000000,
         -2px 2px 3px #000000,
         -2px 2px 3px #000000;
+
     }
 
 }
