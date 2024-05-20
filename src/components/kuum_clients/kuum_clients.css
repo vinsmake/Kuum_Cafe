@@ -29,7 +29,7 @@
 	overflow: hidden;
 }
 .kuum__clients__slider__testimonials .item {
-	width: 350px;
+	width: 400px;
 	min-height: 350px;
 	padding: 30px;
 	border-radius: 5px;
@@ -136,4 +136,10 @@
 #t-5:checked ~ .kuum__clients__slider__testimonials label[for="t-4"],
 #t-5:checked ~ .kuum__clients__slider__testimonials label[for="t-5"] {
 	z-index: 4;
+}
+
+@media (max-width: 576px) {
+	.kuum__clients__slider__testimonials .item {
+		width: 300px;
+	}
 }
