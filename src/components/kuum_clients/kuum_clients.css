@@ -141,5 +141,6 @@
 @media (max-width: 576px) {
 	.kuum__clients__slider__testimonials .item {
 		width: 300px;
+		height: 400px;
 	}
 }
