@@ -96,3 +96,38 @@ export const kuum_menu = {
         }
     ]
 }
+
+/* CLIENTS */
+import profile1 from "../src/assets/images/kuum/clients/profile1.png"
+import profile2 from "../src/assets/images/kuum/clients/profile2.png"
+import profile3 from "../src/assets/images/kuum/clients/profile3.png"
+import profile4 from "../src/assets/images/kuum/clients/profile4.png"
+import profile5 from "../src/assets/images/kuum/clients/profile5.png"
+export const kuum_clients =
+    [
+        {
+            profile: 'Amante del café de especialidad',
+            text: 'El Espresso Sencillo es simplemente espectacular. Es el shot perfecto para empezar el día con energía, sin duda uno de mis café de especialidad favoritos por su sabor intenso y bien balanceado.',
+            image: profile1
+        },
+        {
+            profile: 'Fan de las fusiones',
+            text: 'El Americano de Olla es mi favorito. Me encanta cómo han fusionado el clásico americano con un toquecito de café de olla, creando un sabor único y auténtico que no encuentras en otros lugares.',
+            image: profile2
+        },
+        {
+            profile: 'Amante de las bebidas con leche',
+            text: 'Soy un gran fan del Flat White. La combinación del espresso doble con la de leche texturizada es perfecta. La leche está espumada de tal manera que cada sorbo es suave y delicioso.',
+            image: profile3
+        },
+        {
+            profile: 'Entusiasta del chocolate',
+            text: 'El Moccha es absolutamente divino. La mezcla de cappuccino con chocolate es la combinación perfecta para satisfacer mi antojo de algo dulce y cremoso. ¡Es como un abrazo en una taza!',
+            image: profile4
+        },
+        {
+            profile: 'Aficionado a las bebidas innovadoras',
+            text: 'Cuando crees que probaste todo, aparece el Spring Matcha. Lograr combinar tantos ingredientes y seguir siendo refrescante es simplemente maravilloso. Es la opción perfecta para los días calurosos.',
+            image: profile5
+        },
+    ]

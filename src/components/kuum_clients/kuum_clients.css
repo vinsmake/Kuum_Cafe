@@ -32,7 +32,7 @@
 	width: 400px;
 	padding: 30px;
 	border-radius: 5px;
-	background-color: var(--c-effect);
+	background: linear-gradient(var(--c-detail), var(--c-effect));
 	position: absolute;
 	top: 0;
 	box-sizing: border-box;
@@ -47,10 +47,10 @@
 	height: 100px;
 	object-fit: cover;
 	border-radius: 50%;
-	border: 13px solid var(--c-accent);
+	border: 6px solid var(--c-accent);
 }
 .kuum__clients__slider__testimonials .item p {
-	color: #ddd;
+	color: var(--c-text);
 }
 .kuum__clients__slider__testimonials .item h2 {
 	font-size: 14px;
@@ -65,7 +65,7 @@
 	width: 5px;
 	border-radius: 50%;
 	cursor: pointer;
-	background-color: var(--c-accent);
+	background-color: var(--c-effect);
 	margin: 7px;
 	transition-duration: 0.2s;
 }
@@ -76,7 +76,7 @@
 #t-4:checked ~ .kuum__clients__slider__dots label[for="t-4"],
 #t-5:checked ~ .kuum__clients__slider__dots label[for="t-5"] {
 	transform: scale(2);
-	background-color: var(--c-effect);
+	background-color: var(--c-accent);
 }
 #t-1:checked ~ .kuum__clients__slider__dots label[for="t-2"],
 #t-2:checked ~ .kuum__clients__slider__dots label[for="t-1"],
