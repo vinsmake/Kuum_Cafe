@@ -24,12 +24,13 @@
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	min-height: 350px;
+	min-height: 450px;
 	perspective: 1000px;
 	overflow: hidden;
 }
 .kuum__clients__slider__testimonials .item {
-	width: 400px;
+	width: 350px;
+	min-height: 350px;
 	padding: 30px;
 	border-radius: 5px;
 	background: linear-gradient(var(--c-detail), var(--c-effect));
