@@ -1,0 +1,148 @@
+.kuum__clients {
+    max-width: 100%;
+    background-image: url(../../assets/images/kuum/us/bg_pattern.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin: 0;
+    height: auto;
+    display: flex;
+	align-items: center;
+}
+
+
+.kuum__clients__slider {
+	width: 100%;
+    
+}
+.kuum__clients__slider input {
+	display: none;
+}
+.kuum__clients__slider__testimonials {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	min-height: 450px;
+	perspective: 1000px;
+	overflow: hidden;
+}
+.kuum__clients__slider__testimonials .item {
+	width: 400px;
+	min-height: 350px;
+	padding: 30px;
+	border-radius: 5px;
+    background: url(.../../../../assets/images/kuum/table.png), linear-gradient(0.9turn, var(--c-effect), var(--c-detail));
+	background-size: cover;
+    background-position: center;
+	position: absolute;
+	top: 0;
+	box-sizing: border-box;
+	text-align: center;
+	transition: transform 0.4s;
+	box-shadow: 0px 0px 5px #000000;
+	user-select: none;
+	cursor: pointer;
+}
+.kuum__clients__slider__testimonials .item img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 6px solid var(--c-accent);
+}
+.kuum__clients__slider__testimonials .item p {
+	color: var(--c-text);
+}
+.kuum__clients__slider__testimonials .item h2 {
+	font-size: 14px;
+}
+.kuum__clients__slider__dots {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.kuum__clients__slider__dots label {
+	height: 5px;
+	width: 5px;
+	border-radius: 50%;
+	cursor: pointer;
+	background-color: var(--c-effect);
+	margin: 7px;
+	transition-duration: 0.2s;
+}
+
+#t-1:checked ~ .kuum__clients__slider__dots label[for="t-1"],
+#t-2:checked ~ .kuum__clients__slider__dots label[for="t-2"],
+#t-3:checked ~ .kuum__clients__slider__dots label[for="t-3"],
+#t-4:checked ~ .kuum__clients__slider__dots label[for="t-4"],
+#t-5:checked ~ .kuum__clients__slider__dots label[for="t-5"] {
+	transform: scale(2);
+	background-color: var(--c-accent);
+}
+#t-1:checked ~ .kuum__clients__slider__dots label[for="t-2"],
+#t-2:checked ~ .kuum__clients__slider__dots label[for="t-1"],
+#t-2:checked ~ .kuum__clients__slider__dots label[for="t-3"],
+#t-3:checked ~ .kuum__clients__slider__dots label[for="t-2"],
+#t-3:checked ~ .kuum__clients__slider__dots label[for="t-4"],
+#t-4:checked ~ .kuum__clients__slider__dots label[for="t-3"],
+#t-4:checked ~ .kuum__clients__slider__dots label[for="t-5"],
+#t-5:checked ~ .kuum__clients__slider__dots label[for="t-4"] {
+	transform: scale(1.5);
+}
+#t-1:checked ~ .kuum__clients__slider__testimonials label[for="t-5"] {
+	transform: translate3d(1200px, 0, -360px) rotateY(-45deg);
+}
+#t-1:checked ~ .kuum__clients__slider__testimonials label[for="t-4"],
+#t-2:checked ~ .kuum__clients__slider__testimonials label[for="t-5"] {
+	transform: translate3d(900px, 0, -270px) rotateY(-35deg);
+	z-index: 1;
+}
+#t-1:checked ~ .kuum__clients__slider__testimonials label[for="t-3"],
+#t-2:checked ~ .kuum__clients__slider__testimonials label[for="t-4"],
+#t-3:checked ~ .kuum__clients__slider__testimonials label[for="t-5"] {
+	transform: translate3d(600px, 0, -180px) rotateY(-25deg);
+	z-index: 2;
+}
+#t-1:checked ~ .kuum__clients__slider__testimonials label[for="t-2"],
+#t-2:checked ~ .kuum__clients__slider__testimonials label[for="t-3"],
+#t-3:checked ~ .kuum__clients__slider__testimonials label[for="t-4"],
+#t-4:checked ~ .kuum__clients__slider__testimonials label[for="t-5"] {
+	transform: translate3d(300px, 0, -90px) rotateY(-15deg);
+	z-index: 3;
+}
+#t-2:checked ~ .kuum__clients__slider__testimonials label[for="t-1"],
+#t-3:checked ~ .kuum__clients__slider__testimonials label[for="t-2"],
+#t-4:checked ~ .kuum__clients__slider__testimonials label[for="t-3"],
+#t-5:checked ~ .kuum__clients__slider__testimonials label[for="t-4"] {
+	transform: translate3d(-300px, 0, -90px) rotateY(15deg);
+	z-index: 3;
+}
+#t-3:checked ~ .kuum__clients__slider__testimonials label[for="t-1"],
+#t-4:checked ~ .kuum__clients__slider__testimonials label[for="t-2"],
+#t-5:checked ~ .kuum__clients__slider__testimonials label[for="t-3"] {
+	transform: translate3d(-600px, 0, -180px) rotateY(25deg);
+}
+#t-5:checked ~ .kuum__clients__slider__testimonials label[for="t-2"],
+#t-4:checked ~ .kuum__clients__slider__testimonials label[for="t-1"] {
+	transform: translate3d(-900px, 0, -270px) rotateY(35deg);
+}
+#t-5:checked ~ .kuum__clients__slider__testimonials label[for="t-1"] {
+	transform: translate3d(-1200px, 0, -360px) rotateY(45deg);
+}
+#t-1:checked ~ .kuum__clients__slider__testimonials label[for="t-1"],
+#t-2:checked ~ .kuum__clients__slider__testimonials label[for="t-2"],
+#t-3:checked ~ .kuum__clients__slider__testimonials label[for="t-3"],
+#t-4:checked ~ .kuum__clients__slider__testimonials label[for="t-4"],
+#t-5:checked ~ .kuum__clients__slider__testimonials label[for="t-4"],
+#t-5:checked ~ .kuum__clients__slider__testimonials label[for="t-5"] {
+	z-index: 4;
+}
+
+@media (max-width: 576px) {
+	.kuum__clients__slider__testimonials .item {
+		width: 300px;
+		height: 400px;
+	}
+}

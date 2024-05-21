@@ -3,7 +3,8 @@
 .kuum__hero {
     width: 100%;
     text-align: center;
-    background-image: url(../../../src/assets/images/kuum/hero/hero.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.2) 100%, rgba(0, 0, 0, 1)100%),
+                url(../../../src/assets/images/kuum/hero/hero.png);
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -21,6 +22,7 @@
     width: 80%;
     margin: 4rem auto;
     text-shadow: var(--text-shadow-hero);
+    
 }
 
 .kuum__hero--data--text--h2 {

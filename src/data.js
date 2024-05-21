@@ -1,4 +1,4 @@
-
+/*  HERO */
 export const kuum_hero = {
     kicker: 'Tu cafetería favorita',
     title: 'Kuum Café',
@@ -6,6 +6,7 @@ export const kuum_hero = {
     btn: 'Ver menu'
 }
 
+/*  US */
 import spinning_plate from "../src/assets/images/kuum/us/spinning_plate.png"
 export const kuum_us = {
     kicker: 'Nuestra historia',
@@ -14,6 +15,7 @@ export const kuum_us = {
     spinning_plate: spinning_plate
 }
 
+/*  MENU */
 import espresso_sensillo from "../src/assets/images/kuum/menu/espresso_sencillo.png"
 import americano_olla from "../src/assets/images/kuum/menu/americano_olla.png"
 import flat_white from "../src/assets/images/kuum/menu/flat_white.png"
@@ -28,7 +30,7 @@ import koldbrew from "../src/assets/images/kuum/menu/koldbrew.png"
 import carajillo_kuum from "../src/assets/images/kuum/menu/carajillo_kuum.png"
 export const kuum_menu = {
     title: '¿Y si pedimos un café?',
-    legend: 'Mucho café y brebajes relacionados',
+    legend: 'Nuestros cafés y brebajes favoritos. ',
     link_uber: 'https://www.ubereats.com/store/kuum-cafe-ciudad-guzman/agUSKzQvUxa9A90JoJSJNw?diningMode=DELIVERY',
     link_rappi: 'https://www.rappi.com.mx/restaurantes/1930170903-kuum-cafe',
     menu: [
@@ -94,3 +96,38 @@ export const kuum_menu = {
         }
     ]
 }
+
+/* CLIENTS */
+import profile1 from "../src/assets/images/kuum/clients/profile1.png"
+import profile2 from "../src/assets/images/kuum/clients/profile2.png"
+import profile3 from "../src/assets/images/kuum/clients/profile3.png"
+import profile4 from "../src/assets/images/kuum/clients/profile4.png"
+import profile5 from "../src/assets/images/kuum/clients/profile5.png"
+export const kuum_clients =
+    [
+        {
+            profile: 'Amante del café de especialidad',
+            text: 'El Espresso Sencillo es simplemente espectacular. Es el shot perfecto para empezar el día con energía, sin duda uno de mis café de especialidad favoritos por su sabor intenso y bien balanceado.',
+            image: profile1
+        },
+        {
+            profile: 'Fan de las fusiones',
+            text: 'El Americano de Olla es mi favorito. Me encanta cómo han fusionado el clásico americano con un toquecito de café de olla, creando un sabor único y auténtico que no encuentras en otros lugares.',
+            image: profile2
+        },
+        {
+            profile: 'Amante de las bebidas con leche',
+            text: 'Soy un gran fan del Flat White. La combinación del espresso doble con la de leche texturizada es perfecta. La leche está espumada de tal manera que cada sorbo es suave y delicioso.',
+            image: profile3
+        },
+        {
+            profile: 'Entusiasta del chocolate',
+            text: 'El Moccha es absolutamente divino. La mezcla de cappuccino con chocolate es la combinación perfecta para satisfacer mi antojo de algo dulce y cremoso. ¡Es como un abrazo en una taza!',
+            image: profile4
+        },
+        {
+            profile: 'Aficionado a las bebidas innovadoras',
+            text: 'Cuando crees que probaste todo, aparece el Spring Matcha. Lograr combinar tantos ingredientes y seguir siendo refrescante es simplemente maravilloso. Es la opción perfecta para los días calurosos.',
+            image: profile5
+        },
+    ]
