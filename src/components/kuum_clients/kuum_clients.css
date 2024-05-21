@@ -33,7 +33,9 @@
 	min-height: 350px;
 	padding: 30px;
 	border-radius: 5px;
-	background: linear-gradient(var(--c-detail), var(--c-effect));
+    background: url(.../../../../assets/images/kuum/table.png), linear-gradient(0.9turn, var(--c-effect), var(--c-detail));
+	background-size: cover;
+    background-position: center;
 	position: absolute;
 	top: 0;
 	box-sizing: border-box;

@@ -69,7 +69,7 @@
     border-radius: 32px;
     margin-top: -20%;
     padding: 20% 12px 12px 12px;
-    background: url(./table.png), linear-gradient(0.9turn, var(--c-effect), var(--c-detail));
+    background: url(.../../../../assets/images/kuum/table.png), linear-gradient(0.9turn, var(--c-effect), var(--c-detail));
     background-size: cover;
     box-shadow: -4px 4px 4px#000000;
 }
