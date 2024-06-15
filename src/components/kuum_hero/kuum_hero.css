@@ -1,0 +1,66 @@
+
+
+.kuum__hero {
+    width: 100%;
+    text-align: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.2) 100%, rgba(0, 0, 0, 1)100%),
+                url(../../../src/assets/images/kuum/hero/hero.png);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kuum__hero--data {
+    width: 100%;
+    margin: auto;
+}
+
+.kuum__hero--data--text {
+    width: 80%;
+    margin: 4rem auto;
+    text-shadow: var(--text-shadow-hero);
+    
+}
+
+.kuum__hero--data--text--h2 {
+    font-size: var(--fs-2);
+    font-family: var(--ff-2);
+    margin: 0;
+
+}
+
+.kuum__hero--data--text--h1 {
+    font-size: var(--fs-9);
+    font-family: var(--ff-2);
+    margin: 0;
+
+}
+
+.kuum__hero--data--text--h3 {
+    font-size: var(--fs-1);
+    margin: 0;
+}
+
+.kuum__hero--data--a {
+    font-size: 2rem;
+    color: var(--c-text);
+    background-color: var(--c-accent);
+    border: 6px solid var(--c-effect);
+    text-shadow: 2px 1px 4px #000000;
+    border-radius: 90px;
+    padding: 4px 16px 8px 16px;
+}
+
+@media (max-width: 768px) {
+    .kuum__hero--data--text {
+        width: 95%;
+    }
+
+    .kuum__hero {
+        height: 60vh;
+    }
+    
+}

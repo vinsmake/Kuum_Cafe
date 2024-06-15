@@ -1,0 +1,81 @@
+@font-face {
+    font-family: deloveryButtons;
+    src: url('./Roboto-Medium.ttf');
+  }
+
+.delivery__button {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 125px;
+    border-radius: 32px;
+    justify-content: center; /* Alinea horizontalmente */
+    align-items: center;   
+    padding: 7rem 2rem; 
+    font-size: 20px;
+    font-family: deloveryButtons;
+    box-shadow: -2px 2px 4px 4px #000000;
+}
+
+.button--text {
+    margin: auto;
+}
+
+.button--logo {
+    height: 60px;
+}
+
+  /* RAPPI BUTTON */
+.button--uber {
+    background-color: #06C167;
+    color: #000000;
+}
+
+
+
+/* UBER EATS BUTTON */
+
+.button--rappi {
+    background-color: #FF441F;
+    color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+    .delivery__button {
+        width: 300px;
+        height: 100px;
+        padding: 7rem 2rem; 
+    }
+
+    .button--logo {
+        height: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+    .delivery__button {
+        width: 200px;
+        height: 100px;
+        padding: 4rem 1rem;
+        border-radius: 16px;
+        font-size: 14px;
+    }
+    
+    .button--logo {
+        height: 30px;
+    }
+
+    
+}
+
+@media (max-width: 576px) {
+    .delivery__button {
+        width: 165px;
+        height: 80px;
+    }
+
+    .button--logo {
+        height: 25px;
+    }
+    
+}

@@ -1,0 +1,95 @@
+.kuum__us {
+    max-width: 100%;
+    height: auto;
+    background-image: url(../../assets/images/kuum/us/bg_pattern.png);
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.kuum__us__data {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: auto;
+}
+
+.kuum__us__data__text--span {
+    font-size: var(--fs-2);
+    color: var(--c-accent);
+}
+
+.kuum__us__data__text--title {
+    font-size: var(--fs-6);
+    font-family: var(--ff-2);
+    font-weight: var(--fw-n);
+}
+
+.kuum__us__data__text--text {
+    font-size: var(--fs-text);
+}
+
+.kuum__us__data__image {
+    width: 25vw;
+    margin: auto;
+}
+
+.kuum__us__data__image--src {
+    width: 100%;
+    visibility: hidden; /* necesario para que no se vea antes de iniciar la animacion */
+}
+
+@keyframes roll-to-left {
+    0% {
+        transform: translateX(800px) rotate(540deg);
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+
+@keyframes roll-to-right {
+    0% {
+        transform: translateX(0) rotate(-540deg);
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(800px) rotate(0deg);
+    }
+}
+
+@media (max-width: 1280px) {
+    .kuum__us__data {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+        margin: auto;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .kuum__us__data {
+        grid-template-columns: 1fr;
+    }
+
+    .kuum__us__data__image {
+        width: 75vw;
+        margin: auto;
+    }
+
+    .kuum__us__data {
+        width: 95%;
+    }
+    
+}
