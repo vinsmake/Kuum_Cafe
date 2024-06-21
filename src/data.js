@@ -1,7 +1,7 @@
 /*  HERO */
 export const kuum_hero = {
     kicker: 'Tu cafetería favorita',
-    title: 'Kuum Café',
+    title: 'Vinsmake Café',
     subtitle: 'Compartir un café es de las más puras maneras de amar',
     btn: 'Ver menu'
 }
@@ -10,7 +10,7 @@ export const kuum_hero = {
 import spinning_plate from "../src/assets/images/kuum/us/spinning_plate.png"
 export const kuum_us = {
     kicker: 'Nuestra historia',
-    title: 'Kuum Café',
+    title: 'Vinsmake Café',
     text: 'Sucio es el nombre que se le da a las bebidas con leche cuando se le agrega un espresso, por ejemplo: chai sucio (chai latte con espresso) o matcha sucio (matcha latte con espresso). También es común utilizar el verbo “ensuciar” para pedir una dosis de café en las bebidas en lugar de usar el término “sucio”.',
     spinning_plate: spinning_plate
 }
@@ -65,7 +65,7 @@ export const kuum_menu = {
             img: dirty_chai
         },
         {
-            title: 'Chocolate Kuum',
+            title: 'Chocolate Vinsmake',
             description: 'Chocolate rey amargo en agua y espresso doble.',
             img: chocolate_kuum
         },
@@ -90,7 +90,7 @@ export const kuum_menu = {
             img: koldbrew
         },
         {
-            title: 'Carajillo Kuum',
+            title: 'Carajillo Vinsmake',
             description: 'Espresso doble, licor artesanal de hierbas y especias, jarabe de olla y koldbrew.',
             img: carajillo_kuum
         }
